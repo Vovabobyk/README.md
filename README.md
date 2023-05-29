@@ -1,12 +1,12 @@
 # DUT Front-End Dev JS Exercises
 
-_Bobyk Volodimir ISD-12_
+**_Bobyk Volodimir ISD-12_**
 
-Exercise 1
+**Exercise 1**
 
 Розв'яжіть усі вирази наведені нижче:
 
-
+```
 5 + "34" --> 534
 5 - "4" --> 1
 10 % 5 --> 0
@@ -19,13 +19,12 @@ true + false --> 1
 false + true --> 1
 false - true --> -1
 3 - 4 --> -1
-"Bob" - "bill" --> Na
-N
-
+"Bob" - "bill" --> NaN
+```
 
 Розв'яжіть усі вирази наведені нижче:
 
-
+```
 5 >= 1 --> true
 0 === 1 --> false
 4 <= 1 --> false
@@ -35,19 +34,18 @@ N
 "a" > "A" --> true
 "b" < "A" --> false
 true === false --> false
-true != true --> fals
-e
-
+true != true --> false
+```
 
 Створіть рядок (string): "Привіт! На вулиці "сонячно"" (використовуючи знак +):
 
-JavaScript
+```JavaScript
 
 console.log("Привіт! На вулиці" + " " + "сонячно")
 
+```
 
-
-Exercise 2
+**Exercise 2**
 
 Розв'яжіть усі вирази наведені нижче:
 
@@ -55,7 +53,7 @@ Exercise 2
 
 Створіть змінну, у якій збергіається відповідь (повне ім'я) для "firstName" + " " + "lastName"
 
-JavaScript
+```JavaScript
 
 const firstName = "Vova";
 const lastName = "Bobyk";
@@ -63,28 +61,28 @@ const lastName = "Bobyk";
 const fullName = firstName + " " + lastName;
 console.log(fullName);
 
-
+```
 
 // Розв'яжіть завдання. Скільки буде a + b?
 
-JavaScript
+```JavaScript
 
 var a = 34;
 var b = 21;
 a = 2;
 a + b // --> 23
 
-
+```
 
 // Чому дорівнює c?
 
-JavaScript
+```JavaScript
 
 var c; // --> Undefined
 
+```
 
-
-Exercise 3
+**Exercise 3**
 
 Розробіть кальулятор, використовуючи prompt() та змінні. Розробіть программу, яка виконує наступне:
 
@@ -95,7 +93,7 @@ Exercise 3
 
 Додатково: Зробіть програму, яка може ділити, множити, та віднімати ці два номери
 
-JavaScript
+```JavaScript
 
 const calcFirstNum = prompt("Enter your number", 0);
 const calcSecondNum = prompt("Enter your second number", 0);
@@ -111,3 +109,5 @@ alert(`The result of multiplying this two numbers is ${calcMul}`);
 
 const calcDiv = +calcFirstNum / +calcSecondNum;
 alert(`The result of dividing this two numbers is ${calcDiv}`);
+
+```
